@@ -1,4 +1,4 @@
-package com.wildanokt.trashmap;
+package com.wildanokt.trashmap.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.wildanokt.trashmap.R;
 import com.wildanokt.trashmap.fragment.HelpFragment;
 import com.wildanokt.trashmap.fragment.HomeFragment;
 
@@ -53,6 +54,4 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         }
         return false;
     }
-
-
 }
