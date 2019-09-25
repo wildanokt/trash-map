@@ -57,8 +57,8 @@ public class HomeFragment extends Fragment {
 
                 mMap.addMarker(new MarkerOptions()
                         .position(new LatLng(-7.953341, 112.614669))
-                        .title("FILKOM")
-                        .snippet("kapasitas terisi : 50%")
+                        .title("Lokasi A")
+                        .snippet("Organik : 30%")
                 );
 
 
