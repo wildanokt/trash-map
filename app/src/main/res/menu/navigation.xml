@@ -6,8 +6,8 @@
         android:title="@string/home" />
 
     <item
-        android:id="@+id/navigation_help"
+        android:id="@+id/navigation_about"
         android:icon="@drawable/ic_info"
-        android:title="@string/help" />
+        android:title="@string/about" />
 
 </menu>

@@ -5,10 +5,30 @@
     android:layout_height="match_parent"
     tools:context=".fragment.HelpFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Help fragment" />
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_above="@id/tim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_logo"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made by Team TrobleSolver"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_below="@id/tim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Brawijaya"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"/>
+    </RelativeLayout>
 
 </FrameLayout>
